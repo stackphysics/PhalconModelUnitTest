@@ -3,6 +3,6 @@
 PhalconModelUnitTest
 ====================
 
-Phalcon model unit test example
+Phalcon model unit test example phpunit and codeception
 
 http://www.rami.me.uk/how-to-unit-test-code-with-phalcon-mvc-models/
