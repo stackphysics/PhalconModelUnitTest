@@ -4,7 +4,7 @@ build:
   steps:
     - script:
         name: install dependencie
-        code: composer install
+        code: composer install --no-ansi --no-dev --no-interaction --no-progress --no-scripts --optimize-autoloader
     - script:
         name: Serve application for integration tests
         code: php -S localhost:8000 >> /dev/null &
